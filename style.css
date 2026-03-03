@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d1b2a;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+h1 {
+  color: #e05c52;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.inputs-row {
+  display: flex;
+  gap: 5rem;
+  align-items: flex-end;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.input-group label {
+  font-size: 0.95rem;
+}
+
+#user-weight,
+#planets {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #e05c52;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 0.4rem 0;
+  outline: none;
+  min-width: 220px;
+}
+
+#planets {
+  cursor: pointer;
+  color-scheme: dark;
+}
+
+#planets option {
+  background-color: #0d1b2a;
+}
+
+#output {
+  font-size: 1.1rem;
+  text-align: center;
+  min-height: 1.5em;
+}
+
+.highlight {
+  color: #e05c52;
+}
+
+#calculate-button {
+  background-color: #e05c52;
+  color: #ffffff;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1rem 4rem;
+  cursor: pointer;
+}
+
+#calculate-button:hover {
+  background-color: #c94840;
+}
